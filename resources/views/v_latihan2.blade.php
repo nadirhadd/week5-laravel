@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{$title}}</title>
+
+    <link rel="stylesheet" href="{{ url('css/lat1.css') }}">
+
 </head>
 <body>
-    <h3>{{$title}}</h3>
+    <div class="nav">
+        <a href="{{ url('/') }}">Home</a> <br/>
+    </div>
+    <h1>{{$title}}</h1>
     <table border="1">
         <tr>
             <th>No</th>

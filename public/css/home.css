@@ -1,0 +1,35 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 20vh;
+    color: white;
+    padding-left: 2rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    color: white;
+}
+
+.bg {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.bg a {
+    margin: 1.2rem;
+    text-decoration: none;
+    color: bisque;
+    background-color: grey;
+    padding: 1.2rem;
+}
+
+.bg a:hover {
+    background-color: rgb(58, 58, 58);
+    color: rgb(184, 165, 142);
+}

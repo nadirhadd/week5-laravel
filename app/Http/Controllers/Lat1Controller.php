@@ -9,6 +9,7 @@ class Lat1Controller extends Controller
     public function index(){
         $data["nama"]="Nadir";
         $data["asal"]="Lembang";
+        $data["prodi"]="Informatika";
         return view('v_latihan1', $data);
     }
 

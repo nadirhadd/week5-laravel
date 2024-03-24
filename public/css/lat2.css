@@ -1,0 +1,11 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav a {
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: white;
+}
